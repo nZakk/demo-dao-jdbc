@@ -57,7 +57,7 @@ public class Program {
 		System.out.println("\n=== TEST 6 : Seller Delete ===");
 		
 
-		sellerDao.deleteById(15);
+		//sellerDao.deleteById(15);
 		sellerListAll = sellerDao.findAll();
 		for (Seller obj : sellerListAll) {
 
